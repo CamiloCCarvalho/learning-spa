@@ -12,7 +12,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "err_ossl_evp_unsupported": "echo \"renomeie: START > 'react-scripts --openssl-legacy-provider start' \" \necho \"renomeie: BUILD > 'react-scripts--openssl-legacy-provider build' \" ",
+    "start": "react-scripts start", 
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

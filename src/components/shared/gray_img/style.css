@@ -1,0 +1,5 @@
+.gray-img{
+    width:300px;
+    border-radius:25%;
+    filter: sepia(5%) grayscale(10%);
+}
