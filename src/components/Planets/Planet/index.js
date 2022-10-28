@@ -31,6 +31,14 @@ export const Planet = (props) => {
             <ul>
                 {satellites}
             </ul>
+            <ul>
+                {
+                    listNames.map(item => 
+                        <li key={item.id}>Detalhe {item.name}</li>
+                    )
+                }
+            </ul>
+            <hr/>
             <hr/>
         </div>
     )
