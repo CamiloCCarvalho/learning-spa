@@ -6,7 +6,3 @@ export const GrayImg = (props) => {
         <img className={props.gray ? 'gray-img' : 'color-img'} alt="text" src={props.img_url}/>
     )
 }
-
-
-
-
