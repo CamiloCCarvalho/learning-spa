@@ -14,7 +14,7 @@ export const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <a className="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Sobre</a>
@@ -32,8 +32,8 @@ export const NavBar = () => {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button className="btn btn-danger" type="submit">Search</button>
+              <input className="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
+              <button className="btn btn-danger" type="submit">Pesquisar</button>
             </form>
           </div>
         </div>
