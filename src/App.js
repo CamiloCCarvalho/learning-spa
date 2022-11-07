@@ -1,13 +1,15 @@
 import './App.css'
 import {NavBar} from './components/navbar'
 import {SessionHome} from './components/sessionHome'
+import {AboutHome} from './components/aboutHome'
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
+      <NavBar/>
       <div>
-       <SessionHome></SessionHome>
+        <SessionHome/>
+        <AboutHome/>
       </div>
     </div>
   );
