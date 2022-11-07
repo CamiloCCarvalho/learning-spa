@@ -1,28 +1,24 @@
 import {React, Fragment} from 'react'
 import './sessionHome.css'
 
+
 export const SessionHome = ()  => {
-    const styleCardImg = {
-        width: '18rem'
+    const flipCardStyle = {
+        width: "300px",
+        height: "300px"
     }
     return (
         <Fragment>
             <div className="sessionHome">
-                <div className="card" style={styleCardImg}>
-                    <img src="https://camiloccarvalho.github.io/mypage/img/camilo.jpg" className="card-img-top" alt="Foto de Camilo Costa"/>
-                    <div className="card-body">
-                        <h5 className="card-title">Camilo Costa</h5>
-                        <p className="card-text">Ola! Estou iniciando no mundo do Front-End, veja toda home e clique no botão para saber mais!</p>
-                        <a href="#" className="btn btn-primary">Mais sobre</a>
-                    </div>
-                </div>
+                <p className="display-2" id="home-hi">Hello!</p>
+                <p className="display-1" id="home-name">Eu sou <i>Camilo</i></p>
+                <p className="display-5 mt-3" id="home-content">Front-End Developer Jr. Criando aplicações WEB com React, BootStrap, JS e outras Stacks.</p>
 
-                <div className="card" style={styleCardImg}>
-                    <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="card-img-top" height="100%" alt="Ilustração Desenvolvedor"/>
-                    <div className="card-body">
-                        <h5 className="card-title">Front-End</h5>
-                        <p className="card-text">Desenvolvimento web, com React, JavaScript, Html, Css entre outras stacks.</p>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
+                            <div id="imageDev"></div>
+                        </div>
                     </div>
                 </div>
             </div>

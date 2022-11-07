@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://imgs.search.brave.com/WB2YVWn0ZyG1VLQz-C0lGTDBG5rufJ9J-FyfPSKeh_w/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWNyZWF0/aXZlcy5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTYvMDIv/Qmx1ZS1BYnN0cmFj/dC1CYWNrZ3JvdW5k/LUZvci1Zb3UuanBn);
+  background-image: url('../src/img/bg-poly-grid-haikei.svg');
   background-size:200vw;
   background-color:rgb(50, 50, 250);
 }
