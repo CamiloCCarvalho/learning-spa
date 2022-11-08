@@ -1,52 +1,52 @@
 {
-    "stacks": [
+    "listStacks": [
         {"name": "React",
-         "link":"https://reactjs.org/",
-         "image_url": "https://user-images.githubusercontent.com/106208340/199318462-58be3b04-8c48-488f-b8c3-384afc04bfdc.png"
+            "link":"https://reactjs.org/",
+            "image_url": "https://user-images.githubusercontent.com/106208340/199318462-58be3b04-8c48-488f-b8c3-384afc04bfdc.png"
         },
         {"name": "JavaScript",
-         "link":"https://www.javascript.com/",
-         "image_url": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+            "link":"https://www.javascript.com/",
+            "image_url": "https://img.icons8.com/color/48/000000/javascript--v1.png"
         },
         {"name": "Html",
-         "link":"https://www.w3schools.com/html/",
-         "image_url": "https://img.icons8.com/fluency/48/000000/html-5.png"
+            "link":"https://www.w3schools.com/html/",
+            "image_url": "https://img.icons8.com/fluency/48/000000/html-5.png"
         },
         {"name": "Css",
-         "link":"https://www.w3schools.com/css/",
-         "image_url": "https://img.icons8.com/fluency/48/000000/css3.png"
+        "link":"https://www.w3schools.com/css/",
+        "image_url": "https://img.icons8.com/fluency/48/000000/css3.png"
         },
         {"name": "Sass",
-         "link":"https://sass-lang.com/",
-         "image_url": "https://img.icons8.com/color/48/000000/sass.png"
+            "link":"https://sass-lang.com/",
+            "image_url": "https://img.icons8.com/color/48/000000/sass.png"
         },
         {"name": "Bootstrap",
-         "link":"https://getbootstrap.com/",
-         "image_url": "https://img.icons8.com/color/48/000000/bootstrap.png"
+            "link":"https://getbootstrap.com/",
+            "image_url": "https://img.icons8.com/color/48/000000/bootstrap.png"
         },
         {"name": "Npm",
-         "link":"https://www.npmjs.com/",
-         "image_url": "https://img.icons8.com/color/48/000000/npm.png"
+            "link":"https://www.npmjs.com/",
+            "image_url": "https://img.icons8.com/color/48/000000/npm.png"
         },
         {"name": "Node",
-         "link":"https://nodejs.org/pt-br/",
-         "image_url": "https://img.icons8.com/fluency/48/000000/node-js.png"
+            "link":"https://nodejs.org/pt-br/",
+            "image_url": "https://img.icons8.com/fluency/48/000000/node-js.png"
         },
         {"name": "Babel",
-         "link":"https://babeljs.io/",
-         "image_url": "https://d33wubrfki0l68.cloudfront.net/7a197cfe44548cc1a3f581152af70a3051e11671/78df8/img/babel.svg"
+            "link":"https://babeljs.io/",
+            "image_url": "https://d33wubrfki0l68.cloudfront.net/7a197cfe44548cc1a3f581152af70a3051e11671/78df8/img/babel.svg"
         },
         {"name": "Webpack",
-         "link":"https://webpack.js.org/",
-         "image_url": "https://img.icons8.com/color/48/000000/webpack.png"
+            "link":"https://webpack.js.org/",
+            "image_url": "https://img.icons8.com/color/48/000000/webpack.png"
         },
         {"name": "Git",
-         "link":"https://git-scm.com/",
-         "image_url": "https://img.icons8.com/color/48/000000/git.png"
+            "link":"https://git-scm.com/",
+            "image_url": "https://img.icons8.com/color/48/000000/git.png"
         },
         {"name": "GitHub",
-         "link":"https://github.com/",
-         "image_url": "https://img.icons8.com/color/48/000000/github--v1.png"
+            "link":"https://github.com/",
+            "image_url": "https://img.icons8.com/color/48/000000/github--v1.png"
         }
     ]
 }
