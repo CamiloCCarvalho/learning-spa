@@ -1,11 +1,12 @@
 import {React, Fragment} from 'react'
+import {Carousel} from '../../shared/carousel'
 
 export const PortHome = () => {
 
 
     return (
         <Fragment>
-            content
+            <Carousel/>
         </Fragment>
     )
 }

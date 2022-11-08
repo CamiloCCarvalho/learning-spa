@@ -1,21 +1,29 @@
 ### NODE MODULES
+
 • onde ficam de fato as pastas e arquivos das Libs
+
 ## PUBLIC
+
 • onde ficam os arquivos e pastas publicas que sobem para produção
+
 ## SRC (SOURCE)
+
 • onde fica o codigo fonte
 
 ## SOBRE AS PASTAS NO SRC
+
 • criar uma pasta COMPONENTS
 • dentro dela criar a pasta com nome do componente
 • então criar um arquivo index.js
 *• Por padrão o JS também procura numa pasta o arquivo index.js para executar ou importar igual acontece com html*
 
 ## EXPORTS
+
 *• PROCURAR USAR EXPORT SEM DEFAULT, isso permite segurar os nomes, e renomear com "as" se necessario*
 *• Sempre que for usado um EXPORT sem DEFAULT no IMPORT devemos usar as {itemImport} sem as chaves é apenas para export default*
 
 ## O RETURN DOS COMPONENTES
+
 • Só pode ser devolvido no *return* um unico component, por isso abraçar com <Div> quando precisa
 • **POREM MELHOR IMPORTAR FRAGMENT**
 • *import React, {Fragment} from 'react';*
@@ -23,6 +31,7 @@
 • *<Fragment>seu Component aqui dentro</Fragment>*
 
 ## PROPS
+
 • Para entender as props e o uso delas no REACT, precisamos entender dois tipos de funções:
 
 • FUNÇÕES PURAS:

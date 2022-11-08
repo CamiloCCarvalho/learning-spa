@@ -1,8 +1,9 @@
 import './App.css'
-import {NavBar} from './components/navbar'
+import {NavBar} from './shared/navbar'
 import {SessionHome} from './components/sessionHome'
 import {AboutHome} from './components/aboutHome'
 import {PortHome} from './components/portHome'
+import {Footer} from './shared/footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <SessionHome/>
         <AboutHome/>
         <PortHome/>
+        <Footer/>
       </div>
     </div>
   );
