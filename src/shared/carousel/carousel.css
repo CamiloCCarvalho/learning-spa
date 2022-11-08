@@ -6,5 +6,10 @@
 }
 
 #carouselBoxItem {
-    width:80%;
+    width:70vw;
+}
+.w-100 { /*Images Carousel*/
+    border-radius:20px;
+    filter:brightness(80%);
+    border: 2px solid silver;
 }
