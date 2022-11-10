@@ -1,22 +1,17 @@
 import './App.css'
+import MyRoutes from './routes'
 import {NavBar} from './shared/navbar'
-import {SessionHome} from './components/sessionHome'
-import {AboutHome} from './components/aboutHome'
-import {PortHome} from './components/portHome'
 import {Footer} from './shared/footer'
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <NavBar/>
-      <div>
-        <SessionHome/>
-        <AboutHome/>
-        <PortHome/>
-        <Footer/>
-      </div>
+      <MyRoutes/>
+      <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;
