@@ -1,13 +1,14 @@
 import {React, Fragment} from 'react'
+import {ContentAbout} from '../components/contentAbout'
+
+
 
 
 const AboutScreen = () => {
 
     return (
         <Fragment>
-            <div>
-                <h1>ABOUT TEST WITH ROUTES AND IMPORT AS COMPONENT</h1>
-            </div>
+            <ContentAbout/>
         </Fragment>
     )
 }
