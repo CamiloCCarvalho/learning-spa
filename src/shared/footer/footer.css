@@ -1,3 +1,8 @@
+#footerBox {
+    height:220px;
+    position:relative;
+    top:0px;
+}
 #footer {
     background:transparent;
     border:none;

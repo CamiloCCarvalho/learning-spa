@@ -8,3 +8,9 @@ body {
 @keyframes pan {
   100% {background-position: 15% 50%;}
 }
+
+.App {
+  display:flex;
+  flex-flow: column nowrap;
+  height:100vh;
+}

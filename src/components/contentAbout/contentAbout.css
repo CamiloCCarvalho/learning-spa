@@ -1,0 +1,19 @@
+#aboutBox {
+    height:max-content;
+    border: none;
+    border-top: 2px solid dodgerblue;
+    color: black;
+    z-index:999;
+}
+.aboutPage {
+    background-color: dodgerblue;
+    color:black;
+    border-radius: 8px 8px 0 0;
+    border-right: 1px solid rgb(0, 118, 196);
+}
+.title-about {
+    color:black;
+}
+.title-about, .text-about {
+    text-align: justify;
+}
