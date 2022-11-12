@@ -6,7 +6,7 @@ export const Carousel = ()  => {
 
     return (
         <Fragment>
-            <div  id="carouselBox" className="container mt-5">
+            <div  id="carouselBox" className="container mt-5 mb-5">
                 <h3 className="pt-3">Portifólio</h3>
 
                 <div id="carouselBoxItem" className="carousel slide m-5" data-bs-ride="carousel">
