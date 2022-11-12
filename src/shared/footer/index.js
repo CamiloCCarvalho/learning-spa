@@ -18,9 +18,17 @@ export const Footer = () => {
                         </div>
                         <div className="card-footer text-center pt-3 mt-3">
                             <div className="i-flex">
-                                <i className="fa-brands fa-linkedin-in"></i>
-                                <i className="fa-brands fa-facebook-f"></i>
-                                <i className="fa-brands fa-github"></i>
+                                <a target="_blank" href="https://www.linkedin.com/in/camilocostac/">
+                                    <i className="fa-brands fa-linkedin-in"></i>
+                                </a>
+
+                                <a target="_blank" href="https://github.com/CamiloCCarvalho">
+                                    <i className="fa-brands fa-github"></i>
+                                </a>
+
+                                <a target="_blank" href="https://www.facebook.com/camilo.carvalho.338658">
+                                    <i className="fa-brands fa-facebook-f"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
