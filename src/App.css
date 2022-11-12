@@ -3,14 +3,9 @@ body {
   background-size:200vw;
   background-color:rgb(50, 50, 250);
   animation: pan 60s infinite alternate linear;
+
 }
 
 @keyframes pan {
   100% {background-position: 15% 50%;}
-}
-
-.App {
-  display:flex;
-  flex-flow: column nowrap;
-  height:100vh;
 }

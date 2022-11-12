@@ -7,9 +7,11 @@ import {Footer} from './shared/footer'
 function App() {
   return (
     <div className="app">
-      <NavBar/>
-      <MyRoutes/>
-      <Footer/>
+      <div className="layout">
+        <NavBar/>
+        <MyRoutes/>
+        <Footer/>
+      </div>
     </div>
   )
 }
