@@ -10,14 +10,13 @@ export const Footer = () => {
                 <div id="footerBox" className="container-fluid bg-primary">
                     <div id="footer" className="card text-center">
                         <div className="card-header">
-                        8 de Novembro, 2022
+                        12 de Novembro, 2022
                         </div>
-                        <div className="card-body">
+                        <div className="card-body mt-4 mt-4">
                             <h5 className="card-title">Front-End Developer</h5>
                             <p className="card-text">Não esqueça de visitar as outras Abas!</p>
-                            <a href="#" className="btn btn-danger">Voltar ao Topo</a>
                         </div>
-                        <div className="card-footer text-center mb-1">
+                        <div className="card-footer text-center pt-3 mt-3">
                             <div className="i-flex">
                                 <i className="fa-brands fa-linkedin-in"></i>
                                 <i className="fa-brands fa-facebook-f"></i>

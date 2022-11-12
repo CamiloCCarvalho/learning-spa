@@ -34,6 +34,7 @@ export const NavBar = () => {
             </ul>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
+              <button className="btn btn-danger" type="submit">Pesquisar</button>
             </form>
           </div>
         </div>
