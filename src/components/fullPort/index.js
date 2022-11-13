@@ -1,6 +1,8 @@
 import {React, Fragment} from 'react'
 import {PortHeader} from './portHeader'
 import {PersonalProjects} from './personalProjects'
+import {PersonalClones} from './personalClones'
+
 import './fullPort.css'
 
 export const FullPort = () => {
@@ -11,6 +13,7 @@ export const FullPort = () => {
             <div className="container-fluid portBox">
                 <PortHeader/>
                 <PersonalProjects/>
+                <PersonalClones/>
             </div>
         </Fragment>
     )
