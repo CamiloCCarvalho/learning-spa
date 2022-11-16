@@ -10,12 +10,8 @@ export const PersonalClones = () => {
     return (
         <Fragment>
             <div className="container-fluid mt-5 mb-5 personalClonesBox">
-                <h2 className="display-3 text-center pt-2">Clone Pages</h2>
+                <h2 className="display-3 text-center pt-2 pb-3">Clone Pages</h2>
                     <GridProjects>
-                        <ItemProject/>
-                        <ItemProject/>
-                        <ItemProject/>
-                        <ItemProject/>
                         <ItemProject/>
                         <ItemProject/>
                         <ItemProject/>

@@ -11,7 +11,7 @@ export const PersonalProjects = () => {
     return (
         <Fragment>
             <div className="container-fluid mt-5 personalProjectsBox">
-                <h2 className="display-3 text-center pt-2">Projects</h2>
+                <h2 className="display-3 text-center pt-2 pb-3">Projects</h2>
                 <GridProjects>
                     <ItemProject/>
                     <ItemProject/>
@@ -20,7 +20,7 @@ export const PersonalProjects = () => {
                     <ItemProject/>
                     <ItemProject/>
                     <ItemProject/>
-
+                    <ItemProject/>
                 </GridProjects>
             </div>
         </Fragment>

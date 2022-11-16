@@ -11,10 +11,18 @@
 .portHeader-list-itemBox {
     width: 10em;
     height: 10em;
-    background-color: green;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
     flex-shrink:0;
 }
+
+.portHeader-list-itemBox figure {
+    background: antiquewhite;
+    border-radius:50%;
+}
+.portHeader-list-itemBox p {
+    text-align:center;
+}
+
