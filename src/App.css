@@ -1,5 +1,5 @@
 body {
-  background-image: url('../src/img/bg-poly-grid-haikei.svg');
+  /*background-image: url('../src/img/bg-poly-grid-haikei.svg');*/
   background-size:200vw;
   background-color:rgb(50, 50, 250);
   animation: pan 60s infinite alternate linear;

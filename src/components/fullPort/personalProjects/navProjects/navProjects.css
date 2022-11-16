@@ -1,0 +1,13 @@
+.navProjects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+}
+
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+}
