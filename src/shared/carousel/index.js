@@ -1,4 +1,5 @@
 import {React, Fragment} from 'react'
+import {Link} from 'react-router-dom'
 import './carousel.css'
 
 export const Carousel = ()  => {
@@ -33,13 +34,7 @@ export const Carousel = ()  => {
 
                 <ul>
                     <li>
-                        <a href="#">Visitar Todos projetos</a>
-                    </li>
-                    <li>
-                        <a href="#">Conheça meus projetos pessoas</a>
-                    </li>
-                    <li>
-                        <a href="#">Ver clone de paginas</a>
+                        <Link to="/portifolio">Ir para Portifólio</Link>
                     </li>
                 </ul>
             </div>

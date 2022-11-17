@@ -1,4 +1,5 @@
 import{React} from 'react'
+import {Link} from 'react-router-dom'
 import './navbar.css'
 
 export const NavBar = () => {
@@ -6,7 +7,7 @@ export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a href="/" className="navbar-brand">
               <i className="fa-brands fa-github-alt"></i>
               
             </a>
@@ -16,27 +17,29 @@ export const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a href="/" className="nav-link active" aria-current="page">Inicio</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Sobre</a>
+                <a href="./sobre" className="nav-link">Sobre</a>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Portifolio
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item disabled" href="#">Completo</a></li>
-                  <li><a className="dropdown-item disabled" href="#">Meus Projetos</a></li>
+                  <li>
+                    <a href="./portifolio" className="dropdown-item">Completo</a>
+                  </li>
+                  <li>
+                    <a to="/" className="dropdown-item disabled">Meus Projetos</a>
+                  </li>
                   <li><hr className="dropdown-divider"/></li>
-                  <li><a className="dropdown-item disabled" href="#">Paginas Clone</a></li>
+                  <li>
+                    <a to="/" className="dropdown-item disabled">Paginas Clone</a>
+                  </li>
                 </ul>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
-              <button className="btn btn-primary" type="submit">Pesquisar</button>
-            </form>
           </div>
         </div>
       </nav> 

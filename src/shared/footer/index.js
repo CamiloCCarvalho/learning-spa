@@ -10,7 +10,7 @@ export const Footer = () => {
                 <div id="footerBox" className="container-fluid bg-light">
                     <div id="footer" className="card text-center">
                         <div className="card-header">
-                        12 de Novembro, 2022
+                        17 de Novembro, 2022
                         </div>
                         <div className="card-body mt-4 mt-4">
                             <h5 className="card-title">Front-End Developer</h5>
