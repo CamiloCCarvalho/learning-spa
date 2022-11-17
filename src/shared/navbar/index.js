@@ -1,9 +1,10 @@
 import{React} from 'react'
+import './navbar.css'
 
 export const NavBar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav className="navbar navbar-expand-lg bg-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <i className="fa-brands fa-github-alt"></i>
@@ -34,7 +35,7 @@ export const NavBar = () => {
             </ul>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
-              <button className="btn btn-danger" type="submit">Pesquisar</button>
+              <button className="btn btn-primary" type="submit">Pesquisar</button>
             </form>
           </div>
         </div>

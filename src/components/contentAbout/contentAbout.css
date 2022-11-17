@@ -1,7 +1,7 @@
 #aboutBox {
     height:max-content;
     border: none;
-    border-top: 2px solid dodgerblue;
+    border-top: 2px solid rgb(232, 232, 232);
     color: black;
     z-index:999;
 }
@@ -9,7 +9,7 @@
     background-color: dodgerblue;
     color:black;
     border-radius: 8px 8px 0 0;
-    border-right: 1px solid rgb(0, 118, 196);
+    border-right: 1px solid rgb(224, 224, 224);
 }
 .title-about {
     color:black;

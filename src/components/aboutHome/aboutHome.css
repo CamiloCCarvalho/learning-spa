@@ -1,6 +1,6 @@
 .container {
-    background-image:linear-gradient(280deg,rgb(29, 132, 235), rgb(65, 4, 232));
-    border: 2px solid rgb(22, 99, 244);
+    background-image:linear-gradient(280deg,rgb(220, 220, 220), rgb(239, 240, 252));
+    border: 2px solid rgb(230, 230, 230);
     border-radius:8px;
 }
 .row {
@@ -12,6 +12,6 @@
     text-align: center;
 }
 .logo {
-    filter:drop-shadow(0 16px 10px rgba(41, 41, 41, 0.695));
+    filter:drop-shadow(0 16px 10px rgba(41, 41, 41, 0.48));
     padding:10px;
 }

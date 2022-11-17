@@ -3,14 +3,13 @@ import './itemImage.css'
 
 
 
-export const ItemProject = () => {
-
+export const ItemProject = (props) => {
 
     return (
         <Fragment>
-            <div className="itemImage">
-                Item
-            </div>
+            <img className="img-fluid itemImage" src={props.linkURL}/>
         </Fragment>
     )
 }
+
+// src={props.linkURL} alt={props.textAlt}

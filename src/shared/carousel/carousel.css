@@ -1,15 +1,18 @@
 #carouselBox {
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content:center;
     align-items:center;
 }
 
-#carouselBoxItem {
-    width:70vw;
-}
 .w-100 { /*Images Carousel*/
+    width: 80%;
     border-radius:20px;
     filter:brightness(80%);
     border: 2px solid silver;
+}
+
+ul, li, a {
+    text-decoration:none;
+    list-style-type:none;
 }

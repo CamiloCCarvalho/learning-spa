@@ -7,7 +7,7 @@ export const Footer = () => {
 
     return (
         <Fragment>
-                <div id="footerBox" className="container-fluid bg-primary">
+                <div id="footerBox" className="container-fluid bg-light">
                     <div id="footer" className="card text-center">
                         <div className="card-header">
                         12 de Novembro, 2022

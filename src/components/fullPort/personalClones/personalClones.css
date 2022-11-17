@@ -1,3 +1,4 @@
 .personalClonesBox {
-    background: rgba(0, 0, 0, 0.172);
+    border-bottom: 2px solid black;
+    font-family:'Anton';
 }

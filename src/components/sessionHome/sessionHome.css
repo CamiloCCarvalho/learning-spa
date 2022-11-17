@@ -24,7 +24,7 @@
 
 #home-name, #home-hi, #home-content {
     font-family: 'Anton';
-    color:antiquewhite;
+    color:rgb(22, 22, 22);
     text-align: center;
 }
 .flip-card {
@@ -65,7 +65,7 @@
   .flip-card-front {
     background-image:radial-gradient(dodgerblue, rgb(65, 4, 232));
     color: antiquewhite;
-    box-shadow: 2px 2px 50px rgb(33, 33, 33);
+    box-shadow: 2px 2px 50px rgb(167, 167, 167);
   }
   
   /* Style the back side */
@@ -74,7 +74,7 @@
     background-image:radial-gradient(rgb(67, 0, 250),dodgerblue);
     border: 1px solid #005af5;
     color: antiquewhite;
-    box-shadow: 2px 2px 50px rgb(33, 33, 33);
+    box-shadow: 2px 2px 50px rgb(167, 167, 167);
     transform: rotateY(180deg);
   }
 

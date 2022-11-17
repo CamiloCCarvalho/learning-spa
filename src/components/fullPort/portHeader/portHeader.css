@@ -19,10 +19,11 @@
 }
 
 .portHeader-list-itemBox figure {
-    background: antiquewhite;
+    background: dodgerblue;
     border-radius:50%;
 }
 .portHeader-list-itemBox p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
 }
 

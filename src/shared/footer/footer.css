@@ -1,5 +1,6 @@
 #footerBox {
     height:220px;
+    color:black;
 }
 #footer {
     background:transparent;
@@ -13,5 +14,5 @@
 }
 
 .fa-brands {
-    color: white;
+    color: black;
 }
