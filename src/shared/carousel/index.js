@@ -13,7 +13,7 @@ export const Carousel = ()  => {
 
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="10000">
-                            <img src="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon2.png" className="d-block w-100" alt="..."/>
+                            <img src=" " className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item" data-bs-interval="1000">
                             <img src="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" className="d-block w-100" alt="..."/>
