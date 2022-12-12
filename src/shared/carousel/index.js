@@ -13,13 +13,13 @@ export const Carousel = ()  => {
                 <div id="carouselBoxItem" className="carousel slide m-5" data-bs-ride="carousel">
 
                     <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="1000">
+                        <div className="carousel-item active" data-bs-interval="5000">
                             <a href="./portifolio">
                                 <img src="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/musicdot.png" className="d-block w-100" alt="Ilustração - clone da MusicDot"/>
                             </a>
                             
                         </div>
-                        <div className="carousel-item" data-bs-interval="1000">
+                        <div className="carousel-item" data-bs-interval="5000">
                             <a href="./portifolio">
                                 <img src="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" className="d-block w-100" alt="..."/>
                             </a>

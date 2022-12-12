@@ -1,11 +1,4 @@
 body {
-  background-color: aliceblue;
+  background-image: linear-gradient(to left, rgb(239, 239, 239), rgb(238, 238, 238));
 }
-.layout{
-  background-image: url('../src/img/bg-poly-grid-haikei-light.svg');
-  background-size:200vw;
-  animation: pan 60s infinite alternate linear;
-}
-/*@keyframes pan {
-  100% {background-position: 15% 50%;}
-}*/
+

@@ -1,3 +1,14 @@
 .fa-github-alt {
     color:black;
 }
+.nav-link.active{
+    color: rgb(0, 51, 255) !important;
+}
+.nav-link:hover, .fa-github-alt:hover {
+    color: rgb(0, 51, 255);
+    font-size: 105%;
+}
+.dropdown-item:hover {
+    background-image: linear-gradient(to right, rgb(121, 148, 253), rgba(255, 255, 255, 0));
+    color:antiquewhite;
+}
