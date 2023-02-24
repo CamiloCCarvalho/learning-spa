@@ -1,5 +1,5 @@
-.fa-github-alt {
-    color:antiquewhite;
+.nav-link {
+    color: antiquewhite;
 }
 .nav-link.active{
     color:#fa023c !important;
@@ -9,6 +9,14 @@
     font-size: 105%;
 }
 .dropdown-item:hover {
-    background-image: linear-gradient(to right, rgb(121, 148, 253), rgba(255, 255, 255, 0));
-    color:antiquewhite;
+    background-image: linear-gradient(to right, #fa023c, #c7002e);
+    color:#c8ff00;
 }
+
+/*
+vermelho quase rosa - #fa023c
+quase preto - #040004
+cinza - #413d3d
+amarelo - #c8ff00
+vinho - #4b000f
+*/

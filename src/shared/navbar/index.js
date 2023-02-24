@@ -26,7 +26,7 @@ export const NavBar = () => {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Portifolio
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu bg-dark">
                   <li>
                     <a href="/portifolio" className="dropdown-item">Completo</a>
                   </li>

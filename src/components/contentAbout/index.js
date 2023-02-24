@@ -9,7 +9,7 @@ export const ContentAbout = () => {
     return (
         <Fragment>
             <div id="aboutBox"className="card text-center">
-                <div className="card-header bg-primary">
+                <div className="card-header headerAbout">
                     <ul id="aboutNav"className="nav nav-tabs card-header-tabs">
                     <li className="nav-item aboutPage">
                         <a id="aboutNavItem-1"className="nav-link active" aria-current="true" href="#">Sobre</a>

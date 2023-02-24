@@ -10,7 +10,7 @@ export const Footer = () => {
 
     return (
         <Fragment>
-                <div id="footerBox" className="container-fluid bg-light">
+                <div id="footerBox" className="container-fluid bg-dark">
                     <div id="footer" className="card text-center">
                         <div className="card-header">
                             {datas}

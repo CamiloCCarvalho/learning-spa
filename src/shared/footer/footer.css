@@ -1,6 +1,6 @@
 #footerBox {
     height:220px;
-    color:black;
+    color:antiquewhite;
 }
 #footer {
     background:transparent;
@@ -14,5 +14,8 @@
 }
 
 .fa-brands {
-    color: black;
+    color: #c8ff00;
+}
+.fa-brands:hover {
+    color: #fa023c;
 }

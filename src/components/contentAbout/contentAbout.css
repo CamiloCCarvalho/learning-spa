@@ -1,19 +1,26 @@
 #aboutBox {
     height:max-content;
     border: none;
-    border-top: 2px solid rgb(232, 232, 232);
     color: black;
     z-index:999;
 }
+.headerAbout {
+    background-color: #fa023c;
+}
 .aboutPage {
-    background-color: dodgerblue;
+    background-color: rgb(30, 255, 71);
     color:black;
     border-radius: 8px 8px 0 0;
     border-right: 1px solid rgb(224, 224, 224);
 }
+.card-body {
+    background-color: #252525;
+}
 .title-about {
-    color:black;
+    color:#c8ff00;
 }
 .text-about {
     text-align: justify;
+    color:antiquewhite;
 }
+

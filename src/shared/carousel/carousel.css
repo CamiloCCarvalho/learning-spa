@@ -3,6 +3,7 @@
     flex-flow: column wrap;
     justify-content:center;
     align-items:center;
+    color:#fa023c;
 }
 
 .w-100 { /*Images Carousel*/
@@ -15,5 +16,5 @@
 ul, li, a {
     text-decoration:none;
     list-style-type:none;
-    color: #202020;
+    color: #fa023c;
 }
