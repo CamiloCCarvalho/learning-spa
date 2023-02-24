@@ -37,3 +37,15 @@
     color:greenyellow;
     filter:drop-shadow( 2px 2px 4px green);
 }
+@media (min-width: 600px) {
+    .clockBox {
+        width: 400px;
+        height: 400px;
+    }
+    .clockTitle {
+        font-size:200%;
+    }
+    .clockNumber {
+        font-size:200%
+    }
+}

@@ -1,11 +1,11 @@
 .fa-github-alt {
-    color:black;
+    color:antiquewhite;
 }
 .nav-link.active{
-    color: rgb(0, 51, 255) !important;
+    color:#fa023c !important;
 }
 .nav-link:hover, .fa-github-alt:hover {
-    color: rgb(0, 51, 255);
+    color:#c8ff00 ;
     font-size: 105%;
 }
 .dropdown-item:hover {

@@ -5,7 +5,7 @@ import './navbar.css'
 export const NavBar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg bg-dark">
           <div className="container-fluid">
             <a href="/" className="navbar-brand">
               <i className="fa-brands fa-github-alt"></i>
@@ -28,7 +28,7 @@ export const NavBar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a href="./portifolio" className="dropdown-item">Completo</a>
+                    <a href="/portifolio" className="dropdown-item">Completo</a>
                   </li>
                   <li>
                     <a to="/" className="dropdown-item disabled">Meus Projetos</a>

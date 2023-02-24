@@ -1,0 +1,152 @@
+.page {
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    justify-content:center;
+    box-sizing: border-box;
+    padding:24px;
+}
+
+.base {
+    height:500px;
+    width:500px;
+    background-image:linear-gradient(rgb(26, 26, 26), rgb(16, 38, 16));
+    border-radius:50%;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content:center;
+    border:5px solid rgb(17, 113, 8);
+    filter:drop-shadow(10px 10px 10px rgba(20, 20, 20, 0.623));
+}
+.numberbox{
+    position:absolute;
+    color:antiquewhite;
+    font-size:2rem;
+    font: Arial;
+    padding-left:450px;
+}
+.centerBase{
+    width:50px;
+    height:50px;
+    background-image:linear-gradient(290deg, rgb(4, 95, 8), rgb(8, 77, 30));
+    border-radius:50%;
+    border:2px solid rgb(5, 176, 125);
+    position:absolute;
+}
+/*Hour Pointer*/
+.basePointerHour{
+    width:400px;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+.hourPointer{
+    background-image:linear-gradient(90deg, rgb(3, 123, 71), rgb(0, 255, 153));
+    width:170px;
+    height:20px;
+    margin-right:10px;
+    border-radius:10% 70% 70% 10%;
+    transform:rotate(0deg);
+}
+/*Minute Pointer*/
+.basePointerMinute{
+    position:absolute;
+    width:440px;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+.minutePointer{
+    background-image:linear-gradient(90deg, rgb(249, 249, 250), rgb(255, 234, 3));
+    width:220px;
+    height:10px;
+    border-radius:10% 70% 70% 10%;
+    transform:rotate(0deg);
+}
+/*Second Pointer*/
+.basePointerSecond{
+    position:absolute;
+    width:480px;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+.secondPointer{
+    background-image:linear-gradient(90deg, rgb(249, 249, 250), rgb(10, 76, 228));
+    width:250px;
+    height:6px;
+    border-radius:10% 70% 70% 10%;
+    transform:rotate(0deg);
+}
+
+
+.box03, .number_03 {
+    transform:rotate(0deg);
+}
+.box04{
+    transform:rotate(30deg);
+}
+.number_04 {
+    transform:rotate(-30deg);
+}
+.box05{
+    transform:rotate(60deg);
+}
+.number_05 {
+    transform:rotate(-60deg);
+}
+.box06{
+    transform:rotate(90deg);
+}
+.number_06 {
+    transform:rotate(-90deg);
+}
+.box07{
+    transform:rotate(120deg);
+}
+.number_07 {
+    transform:rotate(-120deg);
+}
+.box08{
+    transform:rotate(150deg);
+}
+.number_08 {
+    transform:rotate(-150deg);
+}
+.box09{
+    transform:rotate(180deg);
+}
+.number_09 {
+    transform:rotate(-180deg);
+}
+.box10{
+    transform:rotate(210deg);
+}
+.number_10 {
+    transform:rotate(-210deg);
+}
+.box11{
+    transform:rotate(240deg);
+}
+.number_11 {
+    transform:rotate(-240deg);
+}
+.box12{
+    transform:rotate(270deg);
+}
+.number_12 {
+    transform:rotate(-270deg);
+}
+.box01{
+    transform:rotate(300deg);
+}
+.number_01 {
+    transform:rotate(-300deg);
+}
+.box02{
+    transform:rotate(330deg);
+}
+.number_02 {
+    transform:rotate(-330deg);
+}

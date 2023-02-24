@@ -13,7 +13,7 @@ export const PersonalProjects = () => {
             <div className="container-fluid mt-5 personalProjectsBox">
                 <h2 className="display-3 text-center pt-2 pb-3">Projects</h2>
                 <GridProjects>
-                        <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/musicdot.png" textAlt=""/>
+                        <ItemProject linkURL="/analog.png" textAlt=""/>
                         <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" textAlt=""/>
                         <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" textAlt=""/>
                         <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" textAlt=""/>
