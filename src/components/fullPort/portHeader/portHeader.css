@@ -7,6 +7,9 @@
     list-style-type: none;
     gap: 16px;
 }
+.portTitle{
+    color:#fa023c;
+}
 
 .portHeader-list-itemBox {
     width: 10em;

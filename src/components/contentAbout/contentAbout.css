@@ -8,10 +8,8 @@
     background-color: #fa023c;
 }
 .aboutPage {
-    background-color: rgb(30, 255, 71);
     color:black;
     border-radius: 8px 8px 0 0;
-    border-right: 1px solid rgb(224, 224, 224);
 }
 .card-body {
     background-color: #252525;
@@ -22,5 +20,9 @@
 .text-about {
     text-align: justify;
     color:antiquewhite;
+}
+#aboutNavItem-1 {
+    background-color:#252525;
+    border: none;
 }
 

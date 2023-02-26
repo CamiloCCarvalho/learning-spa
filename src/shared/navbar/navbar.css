@@ -8,6 +8,9 @@
     color:#c8ff00 ;
     font-size: 105%;
 }
+.dropdown-item {
+    color: antiquewhite;
+}
 .dropdown-item:hover {
     background-image: linear-gradient(to right, #fa023c, #c7002e);
     color:#c8ff00;

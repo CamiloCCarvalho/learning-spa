@@ -31,7 +31,7 @@ export const NavBar = () => {
                     <a href="/portifolio" className="dropdown-item">Completo</a>
                   </li>
                   <li>
-                    <a to="/" className="dropdown-item disabled">Meus Projetos</a>
+                    <a to="/" className="dropdown-item">Meus Projetos</a>
                   </li>
                   <li><hr className="dropdown-divider"/></li>
                   <li>
