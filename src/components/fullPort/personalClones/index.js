@@ -13,7 +13,7 @@ export const PersonalClones = () => {
                 <h2 className="display-3 text-center pt-2 pb-3">Clone Pages</h2>
                     <GridProjects>
                         <a target="_blank" href="https://musicdot.vercel.app">
-                            <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/musicdot.png" textAlt="Ilustração da MusicDot Clone"/>
+                            <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/clonemusicdot.jpeg" textAlt="Ilustração da MusicDot Clone"/>
                         </a>
                         <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" textAlt=""/>
                         <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" textAlt=""/>
