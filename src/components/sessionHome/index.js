@@ -1,7 +1,7 @@
 import {React, Fragment} from 'react'
 import './sessionHome.css'
 
-
+//PAGE MAIN - FIRST PIECE
 export const SessionHome = ()  => {
     return (
         <Fragment>

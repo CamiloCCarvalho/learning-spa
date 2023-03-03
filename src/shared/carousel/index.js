@@ -15,7 +15,7 @@ export const Carousel = ()  => {
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="5000">
                             <a href="./portifolio">
-                                <img src="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/musicdot.png" className="d-block w-100" alt="Ilustração - clone da MusicDot"/>
+                                <img src="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/clonemusicdot.jpeg" className="d-block w-100" alt="Ilustração - clone da MusicDot"/>
                             </a>
                             
                         </div>
