@@ -19,6 +19,7 @@ export const ContentAbout = () => {
         <Fragment>
             <div className="col-md coll">
                 <h3 className="pt-2">{content.title}</h3>
+                <hr/>
                 <p className="px-1 pt-2">{content.contentIntro}</p>
                 <p className="px-1">{content.contentMid}</p>
                 <p className="px-1">{content.contentEnd}</p>

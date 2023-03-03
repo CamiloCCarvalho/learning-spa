@@ -1,6 +1,7 @@
 #footerBox {
     height:220px;
     color:antiquewhite;
+    box-shadow: 0 10px 50px #fa023c;
 }
 #footer {
     background:transparent;

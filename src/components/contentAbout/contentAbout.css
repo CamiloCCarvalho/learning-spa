@@ -1,8 +1,6 @@
 #aboutBox {
-    height:max-content;
+    height:fit-content;
     border: none;
-    color: black;
-    z-index:999;
 }
 .headerAbout {
     background-color: #fa023c;
