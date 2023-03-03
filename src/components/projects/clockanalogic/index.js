@@ -30,7 +30,7 @@ export const ClockAnalogic = () => {
 
         <Fragment>
             <div className="container-fluid page">
-                <div className="clock">
+                <div className="anClock">
                     <div className="hour">
                         <div className="hr" id="hr" style={hr}></div>
                     </div>
