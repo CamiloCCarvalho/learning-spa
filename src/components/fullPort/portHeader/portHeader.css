@@ -7,8 +7,13 @@
     list-style-type: none;
     gap: 16px;
 }
+
 .portTitle{
-    color:#fa023c;
+    color:#c8ff00;
+}
+.portText{
+    background-color:#c8ff00;
+    padding:20px;
 }
 
 .portHeader-list-itemBox {
@@ -19,11 +24,13 @@
     justify-content: space-between;
     align-items: center;
     flex-shrink:0;
+    color:#050505;
 }
 
 .portHeader-list-itemBox figure {
-    background: dodgerblue;
+    background-color:#fa023c;
     border-radius:50%;
+    box-shadow: 4px 4px 10px #212121;
 }
 .portHeader-list-itemBox p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

@@ -6,14 +6,20 @@
 }
 .nav-link:hover, .fa-github-alt:hover {
     color:#c8ff00 ;
-    font-size: 105%;
+    transition: 0.8s;
 }
 .dropdown-item {
     color: antiquewhite;
 }
 .dropdown-item:hover {
     background-image: linear-gradient(to right, #fa023c, #c7002e);
-    color:#c8ff00;
+    color:#050505;
+    transition: 0.2s;
+}
+span.navbar-toggler-icon{
+    background-color: #c8ff00;
+    border-radius:4px;
+    
 }
 
 /*
