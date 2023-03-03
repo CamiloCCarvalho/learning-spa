@@ -21,7 +21,7 @@ export const Carousel = ()  => {
                         </div>
                         <div className="carousel-item" data-bs-interval="5000">
                             <a href="./portifolio">
-                                <img src="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" className="d-block w-100" alt="..."/>
+                                <img src="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/relogioanalogico.jpeg" className="d-block w-100" alt="Ilustração - Relógio Analógico"/>
                             </a>
                         </div>
                     </div>
