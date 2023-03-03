@@ -39,7 +39,7 @@ export const Carousel = ()  => {
 
                 <ul>
                     <li>
-                        <Link to="/portifolio">Ir para Portifólio</Link>
+                        <Link className="linkTo"to="/portifolio">Ir para Portifólio</Link>
                     </li>
                 </ul>
             </div>

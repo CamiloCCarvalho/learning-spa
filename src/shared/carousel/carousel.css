@@ -18,3 +18,7 @@ ul, li, a {
     list-style-type:none;
     color: #fa023c;
 }
+.linkTo:hover{
+    color:#c8ff00;
+    transition: 0.5s;
+}
