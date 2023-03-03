@@ -8,9 +8,9 @@
 
 .w-100 { /*Images Carousel*/
     width: 80%;
-    border-radius:20px;
+    border-radius:10px;
     filter:brightness(80%);
-    border: 2px solid silver;
+    border: 2px solid #c8ff00;
 }
 
 ul, li, a {
