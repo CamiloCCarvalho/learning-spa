@@ -5,6 +5,7 @@ import AboutScreen from './screens/about.js'
 import PortifolioScreen from './screens/portifolio.js'
 import ClockDigitalScreen from './screens/clockdigital.js'
 import ClockAnalogScreen from './screens/clockanalogic.js'
+import HashGameScreen from './screens/hashgame.js'
 
 const MyRoutes = () => (
     <BrowserRouter>
@@ -16,6 +17,7 @@ const MyRoutes = () => (
             <Route exact path='/portifolio/clones' element={<h1>Teste page About</h1>}/>
             <Route exact path='/portifolio/clockdigital' element={<ClockDigitalScreen/>}/>
             <Route exact path='/portifolio/clockanalogic' element={<ClockAnalogScreen/>}/>
+            <Route exact path='/portifolio/hashgame' element={<HashGameScreen/>}/>
         </Routes>
     </BrowserRouter>
 )
