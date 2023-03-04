@@ -107,10 +107,13 @@
     border-radius: 24px 4px 24px 4px;
     color:white;
     border:none;
-    box-shadow:2px 2px 5px rgba(42, 42, 42, 0.829);
+    box-shadow:2px 2px 5px rgba(106, 104, 104, 0.829);
     background-color:rgb(112, 218, 5);
+    font-family:'Anton';
+    margin-top:20px;
 }
 .winnig-message-text{
     color:white;
     font-size:2.5rem;
+    font-family:'Anton';
 }

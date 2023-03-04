@@ -3,9 +3,9 @@ import {React, Fragment, useState, useEffect} from 'react'
 
 const initialState = {
     title: "Meus Conhecimentos",
-    contentIntro: "Atualmente usando React, JavaScript, Bootstrap, Html, Css e APIs RESTful.",
-    contentMid: "Mas também utilizo outras stacks como: TypeScript, Sass/Scss, Bulma, Git, Babel, Webpack e um pouco de NodeJS.",
-    contentEnd: " E Atualmente estou disponivel para iniciar na carreira de desenvolvimento web e estudando mais sobre React, NodeJS e Express." 
+    contentIntro: "Atualmente usando REACT, JS, BOOTSTRAP, HTML, CSS e RESTful APIs.",
+    contentMid: "Também utilizo as stacks: TYPESCRIPT, SASS, BULMA, GIT, BABEL, WEBPACK.",
+    contentEnd: "Atualmente estou disponivel para iniciar na carreira de desenvolvimento e estudando mais sobre REACT, NODE e BACK-END." 
 }
 
 export const ContentAbout = () => {
