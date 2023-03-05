@@ -20,6 +20,7 @@
     align-items:center;
     grid-template-columns: repeat(3, auto);
 }
+
 /* Board with HOVER on void cells */
 .board.x .cell:not(.x):not(.circle):hover::after,
 .board.x .cell:not(.x):not(.circle):hover::before,
@@ -53,6 +54,7 @@
 .cell.x, .cell.circle{
     cursor:not-allowed;
 }
+
 /* X */
 .cell.x:before,
 .cell.x:after,
@@ -74,6 +76,7 @@
 .board.x .cell:not(.x):not(.circle):hover::after{
     transform:rotate(-45deg);
 }
+
 /* Circle */
 .cell.circle:before,
 .cell.circle:after,
@@ -101,6 +104,7 @@
     align-items:center;
     background-color:rgba(0,0,0,0.8);
 }
+
 .winning-message-btn{
     font-size:2.0rem;
     padding:0 12px;
@@ -112,16 +116,19 @@
     margin-top:20px;
     cursor: pointer;
 }
+
 .winning-message-btn:hover{
     color:rgb(232, 226, 226);
     background-image:linear-gradient(to top, rgba(111,214,8, 100%), rgb(146, 255, 3));
 
 }
+
 .winnig-message-text{
     color:white;
     font-size:2.5rem;
     font-family:'Anton';
 }
+
 .show-message{
     display:flex;
 }
