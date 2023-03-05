@@ -6,6 +6,7 @@ import PortifolioScreen from './screens/portifolio.js'
 import ClockDigitalScreen from './screens/clockdigital.js'
 import ClockAnalogScreen from './screens/clockanalogic.js'
 import HashGameScreen from './screens/hashgame.js'
+import CalculatorScreen from './screens/calculator.js'
 
 const MyRoutes = () => (
     <BrowserRouter>
@@ -18,6 +19,7 @@ const MyRoutes = () => (
             <Route exact path='/portifolio/clockdigital' element={<ClockDigitalScreen/>}/>
             <Route exact path='/portifolio/clockanalogic' element={<ClockAnalogScreen/>}/>
             <Route exact path='/portifolio/hashgame' element={<HashGameScreen/>}/>
+            <Route exact path='/portifolio/calculator' element={<CalculatorScreen/>}/>
         </Routes>
     </BrowserRouter>
 )
