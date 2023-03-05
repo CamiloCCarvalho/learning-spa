@@ -20,7 +20,7 @@ export const NavBar = () => {
                 <a href="/" className="nav-link active" aria-current="page">Inicio</a>
               </li>
               <li className="nav-item">
-                <a href="./sobre" className="nav-link">Sobre</a>
+                <a href="/sobre" className="nav-link">Sobre</a>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
