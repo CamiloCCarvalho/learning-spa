@@ -14,6 +14,8 @@ export const HashGame = () => {
         [1,4,7],
         [2,5,8]
     ]
+
+    //Init the game
     const startGame = () => {
         isCircleTurn = false;
 
@@ -44,6 +46,7 @@ export const HashGame = () => {
     const placeMark = (cell, classToAdd) => {
         cell.classList.add(classToAdd)
     }
+
     const checkForWin = (currentPlayer) => {
         return victoryCombination.some(combination => {
             return combination.every(index => {
@@ -51,11 +54,14 @@ export const HashGame = () => {
             })
         })
     }
+
     const checkForDraw = () => {
         return [...document.querySelectorAll("[data-cell]")].every(cell => {
-            cell.classList.contains("x") || cell.classList.contains("circle")
+            return cell.classList.contains("x") || cell.classList.contains("circle")
         })
     }
+
+
     const setBoardHoverClass = () => {
         document.querySelector("[data-bd]").classList.remove("circle")
         document.querySelector("[data-bd]").classList.remove("x")
@@ -64,11 +70,14 @@ export const HashGame = () => {
             ? document.querySelector("[data-bd]").classList.add("circle")
             : document.querySelector("[data-bd]").classList.add("x") 
     }
+
+    //Swap Players
     const swapTurns = () => {
         isCircleTurn = !isCircleTurn
         setBoardHoverClass()
     }
 
+    // Clicks
     const handleClick = (e) => {
         //Input mark
         const cell = e.target
@@ -84,11 +93,11 @@ export const HashGame = () => {
             endGame(false)
         } else if(isDraw) {
             endGame(true)
+        } else {
+            //Change mark
+            swapTurns()
         }
 
-        //Change mark
-        swapTurns()
-        console.log('clicou na celula')
     }
 
     return (
@@ -110,7 +119,7 @@ export const HashGame = () => {
                 </div>
 
                 <div className="winning-message"data-wm>
-                    <p className="winnig-message-text" id="winMsg">X foi o vencedor!</p>
+                    <p className="winnig-message-text" id="winMsg"></p>
                     <button className="winning-message-btn"data-rs>Reiniciar !</button>
                 </div>
             </div>
