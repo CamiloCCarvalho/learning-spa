@@ -90,7 +90,7 @@
 
 /* Message Win */
 .winning-message{
-    display:flex;
+    display:none;
     flex-flow: column wrap;
     position:fixed;
     top:0;
@@ -102,18 +102,26 @@
     background-color:rgba(0,0,0,0.8);
 }
 .winning-message-btn{
-    font-size:2.5rem;
-    padding:12px;
-    border-radius: 24px 4px 24px 4px;
+    font-size:2.0rem;
+    padding:0 12px;
+    border-radius: 3px;
     color:white;
     border:none;
-    box-shadow:2px 2px 5px rgba(106, 104, 104, 0.829);
-    background-color:rgb(112, 218, 5);
+    background-image:linear-gradient(to bottom, rgba(111,214,8, 100%), rgb(146, 255, 3));
     font-family:'Anton';
     margin-top:20px;
+    cursor: pointer;
+}
+.winning-message-btn:hover{
+    color:rgb(232, 226, 226);
+    background-image:linear-gradient(to top, rgba(111,214,8, 100%), rgb(146, 255, 3));
+
 }
 .winnig-message-text{
     color:white;
     font-size:2.5rem;
     font-family:'Anton';
+}
+.show-message{
+    display:flex;
 }
