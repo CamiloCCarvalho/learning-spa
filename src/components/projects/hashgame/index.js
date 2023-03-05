@@ -28,7 +28,7 @@ export const HashGame = () => {
         }
         
         setBoardHoverClass()
-        
+
     }
     const endGame = (isDraw) => {
         if(isDraw) {
@@ -51,22 +51,15 @@ export const HashGame = () => {
             })
         })
     }
-    const checkForDraw = (allCells) => {
-        let countMarks = 0
-        for(const cell of allCells){
-            if(cell.classList.contains('x') || cell.classList.contains('circle')){
-                countMarks++
-            }
-        }
-        if(countMarks === 9){
-            return true
-        } else {
-            return false
-        }
+    const checkForDraw = () => {
+        return [...document.querySelectorAll("[data-cell]")].every(cell => {
+            cell.classList.contains("x") || cell.classList.contains("circle")
+        })
     }
     const setBoardHoverClass = () => {
         document.querySelector("[data-bd]").classList.remove("circle")
         document.querySelector("[data-bd]").classList.remove("x")
+
         isCircleTurn 
             ? document.querySelector("[data-bd]").classList.add("circle")
             : document.querySelector("[data-bd]").classList.add("x") 
@@ -75,6 +68,7 @@ export const HashGame = () => {
         isCircleTurn = !isCircleTurn
         setBoardHoverClass()
     }
+
     const handleClick = (e) => {
         //Input mark
         const cell = e.target
@@ -83,15 +77,15 @@ export const HashGame = () => {
 
         //Check victory
         const isWin = checkForWin(classToAdd)
+
+        //Check a draw
+        const isDraw = checkForDraw()
         if(isWin) {
             endGame(false)
-            console.log("Winner")
-        }
-        //Check a draw
-        const isDraw = checkForDraw(document.querySelectorAll("[data-cell]"))
-        if(isDraw) {
+        } else if(isDraw) {
             endGame(true)
-        } 
+        }
+
         //Change mark
         swapTurns()
         console.log('clicou na celula')
