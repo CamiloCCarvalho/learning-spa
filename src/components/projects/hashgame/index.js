@@ -61,7 +61,6 @@ export const HashGame = () => {
         })
     }
 
-
     const setBoardHoverClass = () => {
         document.querySelector("[data-bd]").classList.remove("circle")
         document.querySelector("[data-bd]").classList.remove("x")

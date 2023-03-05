@@ -21,7 +21,10 @@ export const PersonalProjects = () => {
                             <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/relogiodigital.jpeg" textAlt="Relogio Digital"/>
                         </Link>
                         
-                        <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/jogodavelha.jpeg" textAlt="Jogo da Velha"/>
+                        <Link to="/portifolio/hashgame">
+                            <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/jogodavelha.jpeg" textAlt="Jogo da Velha"/>
+                        </Link>
+                        
                         <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/src/img/calculadora.jpeg" textAlt="Calculadora"/>
                         <ItemProject linkURL="https://raw.githubusercontent.com/CamiloCCarvalho/my-landing-page/master/public/coming-soon.png" textAlt=""/>
                 </GridProjects>
